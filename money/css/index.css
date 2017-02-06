@@ -1,0 +1,140 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	padding: 44px 0 0 0px;
+	background: #f0f0f0;
+}
+.header{
+	box-sizing: border-box;
+	position: fixed;left: 0;top: 0;
+	width: 100%;
+	height: 44px;
+	padding: 0.3em 0.9em;
+	background: #323232;
+	z-index: 555;
+}
+.header ul li i{
+	display: block;
+	color: white;
+	line-height: 1.3em;
+	font-weight: bolder;
+	font-size: 1.8em;
+}
+.header ul li p {
+	font-size: 0.9em;
+	color: white;
+	line-height: 1.5em;
+	font-family: "微软雅黑";
+}
+.header ul li span{
+	color: #DCDCDC;
+	font-size: 0.8em;
+	font-family: "微软雅黑";
+}
+.header li:last-child{
+	margin-left: 2em;
+	text-align: center;
+}
+.header div i{
+	color: white;
+	font-size: 2.2em;
+	margin-right: 0.2em;
+}
+.wrapper{
+	position: absolute;left: 0;top: 44px;
+	bottom: 0px;overflow: hidden;
+	width: 100%;z-index: 9999;
+	}
+.scroller{
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+.top2{
+	width: 100%;
+	height: 4.3rem;
+	background: #666;
+}
+.top2 ul li{
+	padding: 1em 0 0;
+	text-align: center;
+}
+.top2 ul li i{
+	color: white;
+	font-size: 3em;
+}
+.top2 ul li p{
+	color: white;
+	font-family: "微软雅黑";
+	line-height: 1.8em;
+}
+.top2 ul li span{
+	color: #DCDCDC;
+	font-size: 0.8em;
+}
+.fuwu{
+	width: 100%;
+	height: 30px;
+    border-bottom: 1px solid #999999;	
+	padding-left:  1em ;
+}
+.fuwu p{
+	line-height: 2em;
+	color: #666666;
+	font-family: "微软雅黑";
+}
+.er{
+	width: 100%;
+	height: 20rem;
+	background: white;
+}
+.er ul li{
+	border: 1px solid #bbb;
+	height: 5rem;
+	text-align: center;
+}
+.er ul li i{
+	font-size: 2rem;
+	line-height: 3.5rem;
+}
+.er ul li p{
+	color: #666;
+	font-family:"微软雅黑" ;
+}
+
+
+.san{
+	width: 100%;
+	height: 15rem;
+	background: white;
+}
+.san ul li{
+	border: 1px solid #bbb;
+	height: 5rem;
+	text-align: center;
+}
+.san ul li i{
+	font-size: 2rem;
+	line-height: 3.5rem;
+}
+.san ul li p{
+	color: #666;
+	font-family:"微软雅黑" ;
+}
