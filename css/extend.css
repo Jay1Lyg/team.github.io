@@ -1,0 +1,17 @@
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clearfix:after {
+  content: '';
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both; }
+
+.m0 {
+  margin: 0; }
+
+/*# sourceMappingURL=extend.css.map */
